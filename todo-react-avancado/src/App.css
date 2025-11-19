@@ -3,21 +3,34 @@ body {
   background-color: #f4f4f4;
   padding: 1.25rem;
   color: #333;
-  background-image: url(./img/Blue\ Minimalist\ Linktree\ Background.png);
+  background-image: url(./img/Blue\ Minimalist\ Linktree\ Background\ \(3\).png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .app{
   max-width: 37.5rem;
   margin: 0 auto 18.75rem;
-  background-color: #f4f4f4;
+  background-color: #fff0c7;
   padding: 1.25rem 1.875rem;
   border-radius: 0.625rem;
 }
 
+
 h1 {
   text-align: center;
+  border-bottom: 4px solid rgb(255, 186, 107);
+}
+@media (max-width: 768px){
+  h1 {
+    font-size: 1.70rem;
+  }
+
+  h2{
+    font-size: 1rem;
+  }
 }
 
 h2 {
@@ -32,9 +45,37 @@ input {
   box-sizing: border-box;
 }
 
+.todo{
+  background-color: #fffae6;
+  box-shadow: 0 0 0.312rem rgba(0, 0, 0, 0.1);
+  border: solid rgb(255, 186, 107);
+  padding: 0.312rem;
+  margin-bottom: 0.312rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.todo-list {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid rgb(255, 186, 107);
+}
+
+.search {
+  border-bottom: 1px solid rgb(255, 186, 107);
+}
+
+.search, .filter{
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 button {
-  background-color: #fad4ac;
-  color: #464646;
+  background-color: rgb(255, 186, 107);
+  color: #ffffff;
   padding: 0.312rem 0.625rem;
   border: none;
   border-radius: 3px;
@@ -43,12 +84,19 @@ button {
   
 }
 
+@media (max-width: 768px){
+  .complete, .remove{
+    padding: 0.156rem 0.312rem;
+  }
+}
+
 .complete {
-  background-color: rgb(8, 234, 87);
+  background-color: rgb(85, 195, 61);
+  margin-right: 0.312rem;
 }
 
 .remove {
-  background-color: rgb(255, 0, 93);
+  background-color: rgb(172, 11, 70);
 }
 
 button:hover {
@@ -57,12 +105,19 @@ button:hover {
 
 .todo-form{
   padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgb(255, 186, 107);
 }
 
 input,select {
+  background-color: #fff9e1;
   padding: 0.312rem;
   margin-bottom: 0.625rem;
   border: 1px solid #DDD;
   border-radius: 3px;
   width: 100%;
+}
+
+input:focus, select:focus {
+  outline: 2px solid rgb(255, 186, 107);
+  
 }
