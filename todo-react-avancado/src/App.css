@@ -31,3 +31,38 @@ p {
 input {
   box-sizing: border-box;
 }
+
+button {
+  background-color: #fad4ac;
+  color: #464646;
+  padding: 0.312rem 0.625rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.9;
+  
+}
+
+.complete {
+  background-color: rgb(8, 234, 87);
+}
+
+.remove {
+  background-color: rgb(255, 0, 93);
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.todo-form{
+  padding-bottom: 1.5rem;
+}
+
+input,select {
+  padding: 0.312rem;
+  margin-bottom: 0.625rem;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  width: 100%;
+}
