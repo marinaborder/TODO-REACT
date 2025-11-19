@@ -11,3 +11,38 @@ JavaScript (ES6+): Linguagem de programação principal.
 HTML5: Estrutura da aplicação.
 
 CSS3: Estilização da aplicação.
+
+Instruções para Rodar o Projeto Localmente
+Siga os passos abaixo para configurar e executar o projeto em sua máquina local.
+
+Pré-requisitos
+Você deve ter o Node.js e o npm (ou Yarn) instalados em seu sistema.
+
+1. Clonar o Repositório
+Abra o terminal e execute o seguinte comando para clonar o projeto:
+
+Bash
+
+git clone https://github.com/marinaborder/TODO-REACT.git
+2. Navegar para o Diretório do Projeto
+Entre na pasta do projeto clonado:
+
+Bash
+
+cd TODO-REACT
+3. Instalar as Dependências
+Execute o comando de instalação de dependências:
+
+Bash
+
+npm install
+# ou se preferir usar Yarn:
+# yarn install
+4. Iniciar a Aplicação
+Inicie o servidor de desenvolvimento. O projeto será aberto automaticamente no seu navegador padrão em http://localhost:3000.
+
+Bash
+
+npm start
+# ou se preferir usar Yarn:
+# yarn start
