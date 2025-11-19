@@ -30,19 +30,8 @@ Entre na pasta do projeto clonado:
 Bash
 
 cd TODO-REACT
+
 3. Instalar as Dependências
 Execute o comando de instalação de dependências:
-
 Bash
-
 npm install
-# ou se preferir usar Yarn:
-# yarn install
-4. Iniciar a Aplicação
-Inicie o servidor de desenvolvimento. O projeto será aberto automaticamente no seu navegador padrão em http://localhost:3000.
-
-Bash
-
-npm start
-# ou se preferir usar Yarn:
-# yarn start
